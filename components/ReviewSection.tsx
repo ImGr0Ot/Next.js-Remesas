@@ -74,11 +74,10 @@ const ReviewSection = () => {
                 <div className="inline-flex gap-2 items-center">
                   <div className="relative h-10 w-10">
                     <Image
-                      className="rounded-full cursor-none"
+                      className="rounded-full cursor-none object-cover"
                       src={"/hombre-1.webp"}
                       alt={"user logo"}
-                      layout="fill"
-                      objectFit="cover"
+                      fill
                     />
                   </div>
                   <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
@@ -149,11 +148,10 @@ const ReviewSection = () => {
                 <div className="inline-flex gap-2 items-center">
                   <div className="relative h-10 w-10">
                     <Image
-                      className="rounded-full cursor-none"
+                      className="rounded-full cursor-none object-cover"
                       src={"/mujer-1.jpg"}
                       alt={"user logo"}
-                      layout="fill"
-                      objectFit="cover"
+                      fill
                     />
                   </div>
                   <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
@@ -223,11 +221,10 @@ const ReviewSection = () => {
                 <div className="inline-flex gap-2 items-center">
                   <div className="relative h-10 w-10">
                     <Image
-                      className="rounded-full cursor-none"
+                      className="rounded-full cursor-none object-cover"
                       src={"/hombre-2.webp"}
                       alt={"user logo"}
-                      layout="fill"
-                      objectFit="cover"
+                      fill
                     />
                   </div>
                   <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
